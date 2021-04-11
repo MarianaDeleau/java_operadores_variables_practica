@@ -1,0 +1,12 @@
+let numero = prompt("Ingresá un número");
+let cantidad = prompt("Ingresá una cantidad");
+let incremento1 = parseInt(numero) + parseInt(cantidad);
+alert(`Incremento1: ${incremento1}`);
+let incremento2 = incremento1 + parseInt(cantidad); 
+alert(`Incremento2: ${incremento2}`);
+let incremento3 = incremento2 + parseInt(cantidad); 
+alert(`Incremento3: ${incremento3}`);
+let incremento4 = incremento3 + parseInt(cantidad); 
+alert(`Incremento4: ${incremento4}`);
+let incremento5 = incremento4 + parseInt(cantidad); 
+alert(`Incremento5: ${incremento5}`);
