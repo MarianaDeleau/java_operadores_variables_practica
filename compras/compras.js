@@ -1,0 +1,10 @@
+let cantidadDeMouse=prompt("Ingresá la cantidad de mouse que deseas comprar");
+const precioTotalDeMouse=cantidadDeMouse*400;
+let cantidadDeTeclados=prompt("Ingresá la cantidad de teclados que deseas comprar");
+const precioTotalDeTeclados=cantidadDeTeclados*800;
+let cantidadAuriculares=prompt("Ingresá la cantidad de auriculares que deseas comprar");
+const precioTotalAuriculares=cantidadAuriculares*1500;
+let precioTotal=precioTotalDeMouse+precioTotalDeTeclados+precioTotalAuriculares;
+let cuotas=prompt("Ingresá la cantidad de cuotas");
+let precioPorCuota=precioTotal/cuotas;
+alert(`El detalle de la compra es: mouse ${cantidadDeMouse} x $ 400 $ ${precioTotalDeMouse}, teclado ${cantidadDeTeclados} x $ 800 $ ${precioTotalDeTeclados}, auriculares ${cantidadAuriculares} x $ 1500 $ ${precioTotalAuriculares}. El total es $ ${precioTotal} en ${cuotas} cuotas de $ ${precioPorCuota}`);
